@@ -1,6 +1,5 @@
 # ReactNetCore
 
-
 ## Template Setup Instructions: Visual Studio 2019 Mac
 
 ## Create React Project from Template 
@@ -14,7 +13,7 @@
 2. Right click on Dependancies folder, select Add Packages
 3. Search for Nunit and add the package
 
-## Create Testing Project
+## Create a Testing Project
 1. Right Click on MovieApp(master) -> Select -> Add New Project
 2. Select .NET Core > Tests > NUnit Test Project C# > Next.
 3. Target Framework of .NET Core 2.2 > Next
@@ -24,7 +23,7 @@
 1. In project (ex. MovieAppTests) -> Right click on Dependancies folder -> Select -> Edit references
 2. Click on Projects tab -> Select project(MovieApp) ->  click Ok.
 
-## Add Typscript to project:
+## Add Typscript:
 [Blog To Reference ](https://jonhilton.net/new-aspnet-core-react-project/)
 
 The lastest version of reacts-scripts will support typescript
@@ -51,9 +50,11 @@ The lastest version of reacts-scripts will support typescript
         services.AddEntityFrameworkNpgsql()
         .AddDbContext<MvcMovieContext>()
         .BuildServiceProvider();
-
     ```
-- 
+    
+## Entity Framework Commands
+- `dotnet ef migrations add MigrationName`
+- `dotnet ef database update`
 
 ## Tutorial References
 - [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.0)
