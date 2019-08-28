@@ -24,9 +24,6 @@
 1. In project (ex. MovieAppTests) -> Right click on Dependancies folder -> Select -> Edit references
 2. Click on Projects tab -> Select project(MovieApp) ->  click Ok.
 
-## Create a Unit Test
-- WIP
-
 ## Add Typscript to project:
 [Blog To Reference ](https://jonhilton.net/new-aspnet-core-react-project/)
 
