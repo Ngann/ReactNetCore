@@ -75,4 +75,4 @@ The lastest version of reacts-scripts will support typescript
 - [Typescript for React](https://jonhilton.net/new-aspnet-core-react-project/)
 - [Entity Framework]()
 - [App Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows)
-- [Connection Strings](https://medium.com/agilix/entity-framework-core-providing-a-connection-string-from-configuration-65ecd2d2f0d9)
+- [Connection String](https://medium.com/agilix/entity-framework-core-providing-a-connection-string-from-configuration-65ecd2d2f0d9)
