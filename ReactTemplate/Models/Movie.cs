@@ -14,5 +14,7 @@ namespace ReactTemplate.Models
         public decimal Price { get; set; }
         public decimal Review { get; set; }
         public string Director { get; set; }
+        public string Actors { get; set; }
+
     }
 }

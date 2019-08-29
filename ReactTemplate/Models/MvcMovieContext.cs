@@ -14,14 +14,14 @@ namespace ReactTemplate.Models
             _connectionStrings = connectionStrings?.Value ?? throw new ArgumentNullException(nameof(connectionStrings));
         }
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-            => optionsBuilder.UseNpgsql(_connectionStrings.DevDatabase);
+            => optionsBuilder.UseNpgsql(_connectionStrings.Movies);
 
         public DbSet<Movie> Movie { get; set; }
     }
 
     public class ConnectionStringsConfig
     {
-        public string DevDatabase { get; set; }
+        public string Movies { get; set; }
         public string OtherDatabase { get; set; }
     }
 }

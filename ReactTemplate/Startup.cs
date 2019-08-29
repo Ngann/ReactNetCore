@@ -24,6 +24,10 @@ namespace ReactTemplate
         {
             services.Configure<ConnectionStringsConfig>(Configuration.GetSection("ConnectionStrings"));
 
+            var moviesConfig = Configuration.GetSection("Movies")
+                .Get<MovieSettings>();
+                _moviesApiKey = moviesConfig.ServiceApiKey;
+
             services.AddEntityFrameworkNpgsql()
                .AddDbContext<MvcMovieContext>()
                .BuildServiceProvider();
