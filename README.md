@@ -52,9 +52,21 @@ The lastest version of reacts-scripts will support typescript
         .BuildServiceProvider();
     ```
     
-## Entity Framework Commands
+## Entity Framework Commands:
 - `dotnet ef migrations add MigrationName`
 - `dotnet ef database update`
+
+## App Secrets Commands:[reference](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows)
+- `dotnet user-secrets list`
+- `dotnet user-secrets remove "Movies:ConnectionString"`
+- `dotnet user-secrets clear`
+- `dotnet user-secrets set "MyApp:Password" "123456"`
+
+
+## Run Project in Visual Studio Code
+- Run Project: Change into main project, `dotnet run`
+- Run Unit Tests: Change into test project, `dotnet test`
+- Debugging: [reference](https://code.visualstudio.com/docs/editor/debugging)
 
 ## Tutorial References
 - [Create a web app with ASP.NET Core MVC](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/?view=aspnetcore-3.0)
@@ -62,3 +74,5 @@ The lastest version of reacts-scripts will support typescript
 - [Postgres/Npgsql](http://www.npgsql.org/efcore/index.html)
 - [Typescript for React](https://jonhilton.net/new-aspnet-core-react-project/)
 - [Entity Framework]()
+- [App Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-2.2&tabs=windows)
+- [Connection Strings](https://medium.com/agilix/entity-framework-core-providing-a-connection-string-from-configuration-65ecd2d2f0d9)
