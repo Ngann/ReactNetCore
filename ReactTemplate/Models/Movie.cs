@@ -12,6 +12,7 @@ namespace ReactTemplate.Models
         public DateTime ReleaseDate { get; set; }
         public string Genre { get; set; }
         public decimal Price { get; set; }
-        public decimal Note { get; set; }
+        public decimal Review { get; set; }
+        public string Director { get; set; }
     }
 }
